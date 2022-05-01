@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Customer</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+</head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="./image/image.png" alt="Logo" height="50px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!-- Feel Free to change  -->
+            <!-- Landing -->
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+
+            <!-- About Us -->
+            <li class="nav-item">
+              <a class="nav-link" href="./About_Us.html">About Us</a>
+            </li>
+            <!-- Products & Sevices -->
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="./ProductsAndServices/productsAndServices_Page.html"
+                >Products</a
+              >
+            </li>
+
+            <!-- Customer Pages -->
+            <li class="nav-item">
+              <a class="nav-link" href="./Customers.html">Customer</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+      </header>
+      <h3>Want relaxable music?</h3>
+      <audio controls autoplay>
+        <source src="./music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      
+      
+      <form id="myform">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="firstname">FirstName</label>
+            <svg class="bi bi-person-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+              <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+            </svg>
+            <input type="text" class="form-control" id ="firstname" value="" placeholder="Sam">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="lasttname">LastName</label>
+            <svg class="bi bi-person-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+              <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+            </svg>
+            <input type="text" class="form-control" id="lastname" value="" placeholder="Wish">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4" > Email</label>
+            <svg class="bi bi-envelope-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+            </svg>
+            <input type="email" class="form-control" value="" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPhone">Phone</label>
+            <svg class="bi bi-phone" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+              <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+            </svg>
+            <input type="phone" class="form-control" value="" id="inputPhone">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <input type="text" class="form-control" value=""id="inputState">
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        </div>
+
+        <legend >Services you are interested </legend>
+        <div id="form">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <svg class="bi bi-headphones" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M8 3a5 5 0 0 0-5 5v4.5H2V8a6 6 0 1 1 12 0v4.5h-1V8a5 5 0 0 0-5-5z"/>
+              <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
+            </svg>
+            <label class="form-check-label" for="inlineCheckbox1">Headphones</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">Other</label>
+          </div>
+        </div>
+
+        <legend >How to contact you </legend>
+        <div id="form">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <svg class="bi bi-envelope-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+            </svg>
+            <label class="form-check-label" for="inlineCheckbox1">Email</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <svg class="bi bi-phone" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+              <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+            </svg>
+            <label class="form-check-label" for="inlineCheckbox2">Phone</label>
+          </div>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">On Mail List</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">Not on Mail List</label>
+        </div>
+        <br>
+        
+        <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+      </form>
+        
+    <!-- <ul id="List"></ul> -->
+
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Email</th>
+              <th scope="col">Phone</th>
+              <th scope="col">State</th>
+            </tr>
+          </thead>
+          <tbody id="List" >
+          </tbody>
+        </table>
+
+        <footer class="page-footer font-small blue pt-4">
+
+          <div class="container-fluid text-center text-md-left">
+  
+              <div class="row">
+  
+                  <div class="col-md-6 mt-md-0 mt-3">
+  
+                      <h5 class="text-uppercase"></h5>
+                      <a href="#">
+                          <img src="./image/image.png" width="80px" style="margin-top:0px;" alt="Logo">
+                      </a>
+  
+  
+                  </div>
+  
+                  <div class="footer-copyright text-center py-3">© 2020 Coorperation:
+                      <a href="https://mdbootstrap.com/"> TeamProject.com</a>
+                  </div>
+  
+      </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script>
+      document.getElementById("submit").addEventListener("click",handleClick);
+          var counter = 1;
+          var rows = `row${counter}`;
+          function handleClick(event){
+              event.preventDefault();
+              let fn = document.getElementById("firstname").value;
+              let ln = document.getElementById("lastname").value;
+              let el = document.getElementById("inputEmail4").value;
+              let ph = document.getElementById("inputPhone").value;
+              let st = document.getElementById("inputState").value;
+              let userObject = {
+                  first: fn,
+                  last: ln,
+                  email: el,
+                  phone: ph,
+                  state: st
+              }
+              document.getElementById("myform").reset();
+              writeNames(userObject);
+          }
+          function writeNames(user){
+              let root = document.getElementById("List");
+              let tr = document.createElement("tr");
+              tr.setAttribute('id',counter);
+              root.appendChild(tr);
+              let next = document.getElementById(`${counter}`);
+              let th = document.createElement("th");
+              th.setAttribute('id',rows);
+              th.setAttribute ('scope','row');
+              th.textContent = `${counter}`
+              next.appendChild(th);
+              let td1 = document.createElement("td");
+              td1.textContent = `${user.first}`;
+              next.appendChild(td1);
+              let td2 = document.createElement("td");
+              td2.textContent = `${user.last}`;
+              next.appendChild(td2);
+              let td3 = document.createElement("td");
+              td3.textContent = `${user.email}`;
+              next.appendChild(td3);
+              let td4 = document.createElement("td");
+              td4.textContent = `${user.phone}`;
+              next.appendChild(td4);
+              let td5 = document.createElement("td");
+              td5.textContent = `${user.state}`;
+              next.appendChild(td5);
+  
+              counter++;
+          }
+  
+    </script>
+  </body>
+</html>
